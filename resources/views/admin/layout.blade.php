@@ -40,7 +40,7 @@
             <!-- Sidebar user (optional) -->
             <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                 <div class="image">
-                    <img  src="{{auth()->user()->is_admin ? asset('dist/img/avatar.jpg') : asset('dist/img/avatar5.png') }}" class="img-circle elevation-2" alt="User Image">
+                    <img  src="{{  auth()->user()->is_admin  ? asset('dist/img/avatar.png') : asset('dist/img/avatar5.png') }}" class="img-circle elevation-2" alt="User Image">
                 </div>
                 <div class="info">
 
@@ -58,7 +58,7 @@
 
     <footer class="main-footer">
         <div class="float-right d-none d-sm-block">
-            <b>Version</b> 3.0.4
+
         </div>
         <strong>Copyright &copy; 2022 <a href="http://adminlte.io">ПолимерЛидер плюс</a>.</strong>
 
@@ -82,6 +82,7 @@
 <!-- AdminLTE App -->
 <script src="{{asset('dist/js/adminlte.min.js')}}"></script>
 <script src="{{asset('dist/js/admin.js')}}"></script>
+
 <!-- AdminLTE for demo purposes -->
 
 </body>

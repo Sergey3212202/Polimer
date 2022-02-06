@@ -140,10 +140,34 @@ color: white;
 }
 .title_gradient{
 
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: #168BD1;
     font-size: 45px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.contact-item{
+    display: flex;
+    width: 435px;
+}
+.contact__item{
+    display: flex;
+    flex-direction: column;
+
+}
+.row__item{
+    display: flex;
+    justify-content: space-between;
+}
+#icon_contact {
+    font-size: 50px;
+    color: #D24A43;
+    margin-right: 28px;
 }
 .text_gradient{
     font-size: 20px;

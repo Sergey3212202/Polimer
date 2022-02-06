@@ -405,6 +405,50 @@ Welcome!
                 <img class="circle-mobile" src="" alt="">
                 <img class="bg-img" src="../img/bag4.png" alt="">
             </section>
+            <div class="container">
+                <div class="row__item ml-5 mt-5">
+                    <div class="col-md contact__item ml-5">
+                        <div class="contact-item ">
+                            <div class="icon" id="icon_contact">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="content ">
+                                <h5 class="title-item">Телефон</h5>
+                                <p class="text-item">+7 (3532) 240-230</p>
+                            </div>
+                        </div>
+                        <div class="contact-item mb-4">
+                            <div class="icon" id="icon_contact">
+                                <i class="fas fa-location-arrow"></i>
+                            </div>
+                            <div class="content mb-4">
+                                <h5 class="title-item">Адрес</h5>
+                                <p class="text-item">Пн-пт 09:00 - 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md mb-4 contact__item ml-5">
+                        <div class="contact-item">
+                            <div class="icon" id="icon_contact">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="content" >
+                                <h5 class="title-item">Email</h5>
+                                <p class="text-item">polimerlider@mail.ru</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon" id="icon_contact">
+                                <i class="fas fa-location-arrow"></i>
+                            </div>
+                            <div class="content">
+                                <h5 class="title-item">Режим работы</h5>
+                                <p class="text-item"> Авторемонтная 1, каб. 32</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-7 col-md-12">
                     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aba42d71d33362f5d7789f1a45f6c4e49a62ad8bc5e2e358c4a264645c35ca904&amp;source=constructor" width="685" height="503" frameborder="0"></iframe>

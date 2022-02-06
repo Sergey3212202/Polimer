@@ -34,7 +34,7 @@ Route::resource('order','OrderController',['only' => ['store', 'update', 'destro
 
 
 //Админка
-Route::group(['prefix' => 'admin-panel', 'middleware' => ['auth']], function () {
+Route::group(['prefix' => 'admin-panel', 'middleware' => ['auth','isAdmin']], function () {
     Route::get('/', 'AdminController@index')->name('admin.index');
     // Users
     Route::prefix('users')->group(function () {

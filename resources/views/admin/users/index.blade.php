@@ -32,7 +32,6 @@
                             <td>{{ $user->email }}</td>
                             <td>
                                 <span class="badge {{ $user->is_admin ? 'badge-success' : 'badge-danger'}}">Admin</span>
-                                <span class="badge {{ $user->is_manager ? 'badge-success' : 'badge-danger'}}">Manager</span>
                             </td>
                             <td>
                                 <div class="btn-group">

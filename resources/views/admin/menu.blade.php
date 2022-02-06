@@ -13,6 +13,12 @@
                 <p>Продукты</p>
             </a>
         </li>
+        <li class="nav-item">
+            <a href="{{ route('admin.orders.index') }}" class="nav-link text-white">
+                <i class="nav-icon fas fa-table"></i>
+                <p>Заказы</p>
+            </a>
+        </li>
 {{--        <li class="nav-item">--}}
 {{--            <a href="{{ route('admin.orders.index') }}" class="nav-link">--}}
 {{--                <i class="far fa-circle nav-icon"></i>--}}
